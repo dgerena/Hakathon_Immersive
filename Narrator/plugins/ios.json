@@ -40,7 +40,7 @@
                     "AudioToolbox.framework": [
                         {
                             "xml": true,
-                            "count": 1
+                            "count": 2
                         }
                     ],
                     "AddressBook.framework": [
@@ -95,6 +95,10 @@
                         {
                             "xml": "<feature name=\"Contacts\"><param name=\"ios-package\" value=\"CDVContacts\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Notification\"><param name=\"ios-package\" value=\"CDVNotification\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -134,6 +138,9 @@
             "PACKAGE_NAME": "com.hakathon_immersive.narrator"
         },
         "org.apache.cordova.contacts": {
+            "PACKAGE_NAME": "com.hakathon_immersive.narrator"
+        },
+        "org.apache.cordova.dialogs": {
             "PACKAGE_NAME": "com.hakathon_immersive.narrator"
         }
     },

@@ -1,16 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.hakathon_immersive.narrator" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <preference name="loglevel" value="DEBUG" />
-    <preference name="BackgroundColor" value="0xff0000ff"/>
-    <name>Narrator</name>
-    <description>
-        A leading mobile app to immersive guest to Universal experience.
-    </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Narrator Team
-    </author>
-    <content src="index.html" />
-    <access origin="*" />
     <feature name="SplashScreen">
         <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
         <param name="onload" value="true" />
@@ -34,4 +24,16 @@
     <feature name="Contacts">
         <param name="android-package" value="org.apache.cordova.contacts.ContactManager" />
     </feature>
+    <feature name="Notification">
+        <param name="android-package" value="org.apache.cordova.dialogs.Notification" />
+    </feature>
+    <name>Narrator</name>
+    <description>
+        A leading mobile app to immersive guest to Universal experience.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Narrator Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
 </widget>

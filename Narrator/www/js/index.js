@@ -34,6 +34,16 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
+        if (navigator.notification) { // Override default HTML alert with native dialog
+            window.alert = function (message) {
+                navigator.notification.alert(
+                    message,    // message
+                    null,       // callback
+                    "Workshop", // title
+                    'OK'        // buttonName
+                );
+            };
+        }
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
@@ -47,5 +57,6 @@ var app = {
         console.log('Received Event: ' + id);
     }
 };
+
 
 app.initialize();
