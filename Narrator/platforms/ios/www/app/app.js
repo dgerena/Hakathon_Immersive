@@ -1,6 +1,6 @@
 var narrator = angular.module('narrator', ['ngCordova','ui.router'])
     .run(function ($rootScope, $cordovaNetwork, $cordovaBatteryStatus, $cordovaLocalNotification, $cordovaPush,$http,API_URL,API) {
-
+        
             if (window.cordova && window.cordova.plugins.Keyboard) {
                 cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
             }
@@ -65,7 +65,7 @@ var narrator = angular.module('narrator', ['ngCordova','ui.router'])
         key : 'Hackathon1',
         token : '9ebc55c9-b5e4-4695-83c5-ade19ea6df4c'
     })
-    .config(function($stateProvider, $urlRouterProvider,$locationProvider){
+    .config(function($stateProvider, $urlRouterProvider){
 
         document.addEventListener("deviceready", function () {}, false);
 
@@ -73,7 +73,5 @@ var narrator = angular.module('narrator', ['ngCordova','ui.router'])
             .state('login',{url:'/',templateUrl:'login/login.html'})
             .state('dashboard',{url:'/dashboard',templateUrl:'login/login.html'})
 
-        $urlRouterProvider.otherwise('/dashboard');
-
-        $locationProvider.html5Mode(true);
+        $urlRouterProvider.otherwise('/dashboard')
     });
