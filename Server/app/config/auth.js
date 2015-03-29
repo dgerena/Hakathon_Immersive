@@ -19,12 +19,6 @@ module.exports = {
 		'callbackURL'   : 'http://localhost:3000/auth/google/callback'
 	},
 
-	'stripeAuth': {
-		'clientID'      : 'your-secret-clientID-here',
-		'clientSecret'  : 'your-client-secret-here',
-		'callbackURL'   : 'http://localhost:3000/auth/google/callback'
-	},
-
 	'email': {
 		'user': 'marketing@portlightllc.com',
 		'pass': 'marketme123'
