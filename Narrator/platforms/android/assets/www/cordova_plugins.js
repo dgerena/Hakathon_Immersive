@@ -1,13 +1,6 @@
 cordova.define('cordova/plugin_list', function(require, exports, module) {
 module.exports = [
     {
-        "file": "plugins/org.apache.cordova.splashscreen/www/splashscreen.js",
-        "id": "org.apache.cordova.splashscreen.SplashScreen",
-        "clobbers": [
-            "navigator.splashscreen"
-        ]
-    },
-    {
         "file": "plugins/org.apache.cordova.media/www/MediaError.js",
         "id": "org.apache.cordova.media.MediaError",
         "clobbers": [
@@ -126,13 +119,6 @@ module.exports = [
         "id": "org.apache.cordova.dialogs.notification_android",
         "merges": [
             "navigator.notification"
-        ]
-    },
-    {
-        "file": "plugins/com.evothings.ble/ble.js",
-        "id": "com.evothings.ble.BLE",
-        "clobbers": [
-            "evothings.ble"
         ]
     },
     {
@@ -285,7 +271,6 @@ module.exports = [
 module.exports.metadata = 
 // TOP OF METADATA
 {
-    "org.apache.cordova.splashscreen": "1.0.0",
     "org.apache.cordova.media": "0.2.16",
     "org.apache.cordova.network-information": "0.2.15",
     "org.apache.cordova.device": "0.3.0",
@@ -294,7 +279,6 @@ module.exports.metadata =
     "org.apache.cordova.console": "0.2.13",
     "org.apache.cordova.contacts": "0.2.16",
     "org.apache.cordova.dialogs": "0.3.0",
-    "com.evothings.ble": "0.0.1",
     "org.apache.cordova.file": "1.3.3"
 }
 // BOTTOM OF METADATA
