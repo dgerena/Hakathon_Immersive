@@ -178,6 +178,13 @@ module.exports = [
         ]
     },
     {
+        "file": "plugins/com.evothings.ble/ble.js",
+        "id": "com.evothings.ble.BLE",
+        "clobbers": [
+            "evothings.ble"
+        ]
+    },
+    {
         "file": "plugins/org.apache.cordova.file/www/DirectoryEntry.js",
         "id": "org.apache.cordova.file.DirectoryEntry",
         "clobbers": [
@@ -336,6 +343,7 @@ module.exports.metadata =
     "org.apache.cordova.console": "0.2.13",
     "org.apache.cordova.contacts": "0.2.16",
     "org.apache.cordova.dialogs": "0.3.0",
+    "com.evothings.ble": "0.0.1",
     "org.apache.cordova.file": "1.3.3"
 }
 // BOTTOM OF METADATA
