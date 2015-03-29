@@ -24,6 +24,7 @@
     "express-session": "*",
     "js-sha256": "*",
     "mongoose": "*",
+    "unirest": "^0.4.0",
     "uuid": "*"
   },
   "devDependencies": {

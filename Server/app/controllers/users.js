@@ -1,6 +1,8 @@
 var async = require('async');
 var route = require('express').Router();
 var sha = require("js-sha256").sha256;
+var querystring = require("querystring");
+var unirest = require('unirest');
 
 var type = 'query'
 
@@ -65,19 +67,43 @@ route.get('/login',function (req,res){
 route.all('/visit*', app.policies.mustBeLoggedIn);
 
 route.get('/visit/:uuid',function (req,res){
-	Models.users
-		.findOne({
-			'uuid': req.session.user.uuid
-		})
-		.exec(function (err, user) {
+	
+	async.parallel({
+		'user': function(done){
+			Models.users
+				.findOne({
+					'uuid': req.session.user.uuid
+				})
+				.exec(function (err, user) {
 
-			user.visited.push({
-				'location': req.params.uuid,
-				'at': new Date()
-			});
-			user.save();
-			res.json({ 'passed': true });
-		});
+					user.visited.push({
+						'location': req.params.uuid,
+						'at': new Date()
+					});
+					user.save();
+					done();
+				});
+
+		},
+		'beacon': function(done){
+
+			models.beacons
+				.findOne(
+					"uuid":req.params.uuid
+				})
+				.exec(function (err,beacon){
+					var	url =  "https://servicesstg.universalorlando.com/api/";
+					for(var s = 0; s < beacon.section.length;s++){
+						url += beacon.section[s] + "/"
+					}
+
+					url += beacon.id+"?"+querystring({auth.hack1});
+
+				})
+		},
+	},function (err, result){
+
+	});
 });
 
 
