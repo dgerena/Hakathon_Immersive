@@ -5,7 +5,7 @@ var querystring = require("querystring");
 var unirest = require('unirest');
 
 var type = 'query'
-
+console.log("hi.....");
 route.get('/signup',function (req,res){
 	Models.users
 		.findOne({
@@ -67,7 +67,7 @@ route.get('/login',function (req,res){
 route.all('/visit*', app.policies.mustBeLoggedIn);
 
 route.get('/visit/:uuid',function (req,res){
-	
+	console.log('well hi there.');
 	async.parallel({
 		'user': function(done){
 			Models.users
@@ -86,9 +86,9 @@ route.get('/visit/:uuid',function (req,res){
 
 		},
 		'beacon': function(done){
-
+			console.log('hi im here',89);
 			models.beacons
-				.findOne(
+				.findOne({
 					"uuid":req.params.uuid
 				})
 				.exec(function (err,beacon){
@@ -97,8 +97,25 @@ route.get('/visit/:uuid',function (req,res){
 						url += beacon.section[s] + "/"
 					}
 
-					url += beacon.id+"?"+querystring({auth.hack1});
+					url += beacon.id+"?"+querystring(auth.hack1);
+					console.log('hero',101);
+					unirest.get(url)
+						.header({
+							"Cache-Control" : "no-cache",
+							"Content-Length": "1767",
+							"Content-Type": "application/json; charset=utf-8",
+							"Date": "Sun, 29 Mar 2015 03:43:11 GMT",
+							"Expires": "-1",
+							"Pragma": "no-cache",
+							"Server": "Microsoft-IIS/7.5",
+							"X-AspNet-Version": "4.0.30319",
+							"X-Powered-By": "ASP.NET"
 
+						})
+						// .send({ "parameter": 23, "foo": "bar" })
+						.end(function (response) {
+						  console.log('Welcome',response.body);
+						});
 				})
 		},
 	},function (err, result){
