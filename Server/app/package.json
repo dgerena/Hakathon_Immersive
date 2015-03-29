@@ -1,0 +1,32 @@
+{
+  "name": "hackathon_thing",
+  "version": "3.3.1",
+  "authors": [
+    {
+      "name": "Russell Schlup",
+      "title": "Senior Web Developer",
+      "email": "portlight.rschlup@gmail.com"
+    },
+    {
+      "name": "Damasio Eli Gerena IV",
+      "title": "Senior Web Developer",
+      "email": "portlight.dgerena@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "async": "*",
+    "better-require": "*",
+    "body-parser": "*",
+    "coffee-script": "*",
+    "connect-redis": "*",
+    "ejs-mate": "*",
+    "express": "*",
+    "express-session": "*",
+    "js-sha256": "*",
+    "mongoose": "*",
+    "uuid": "*"
+  },
+  "devDependencies": {
+    "mocha": "1.15.1"
+  }
+}
