@@ -80,8 +80,7 @@ route.get('/visit/:uuid',function (req,res){
 						'location': req.params.uuid,
 						'at': new Date()
 					});
-					user.save();
-					done();
+					done(err, user);
 				});
 
 		},
@@ -112,11 +111,10 @@ route.get('/visit/:uuid',function (req,res){
 								"Server": "Microsoft-IIS/7.5",
 								"X-AspNet-Version": "4.0.30319",
 								"X-Powered-By": "ASP.NET"
-
 							})
 							// .send({ "parameter": 23, "foo": "bar" })
 							.end(function (response) {
-							  done(err,response);
+							  done(err,response.body);
 							});
 					} else {
 						done({"Error":"that beacon hasn't been stored or has been moved"});
@@ -125,7 +123,15 @@ route.get('/visit/:uuid',function (req,res){
 		},
 	},function (err, result){
 		if(err){ res.json(err); }
-		else{ res.json(result); }
+		else{
+			result.user.lastSeen = [
+				result.beacon.Longitude,
+				result.beacon.Latitude
+			];
+			
+			result.user.save();
+			res.json(result.beacon);
+		}
 	});
 });
 
