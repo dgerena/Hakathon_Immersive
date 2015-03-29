@@ -2,7 +2,8 @@ var os = require('os');
 var fs = require('fs');
 
 // set port
-var config = {
+module.exports = {
+	
 	"Production": {
 		'http': 80,
 		'https': 443,
@@ -25,6 +26,3 @@ var config = {
 };
 
 // Error: error:0906D06C:PEM routines:PEM_read_bio:no start line
-
-
-module.exports = config;

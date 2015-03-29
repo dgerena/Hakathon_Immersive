@@ -113,3 +113,26 @@ h1 {
     animation:fade 3000ms infinite;
     -webkit-animation:fade 3000ms infinite;
 }
+
+.connect-info {
+    height: 100px;
+    width: 100px;
+    background-color: #00caf2;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    position: fixed;
+    bottom: 60px;
+    left: 17.25px;
+    z-index: -1;
+}
+
+.connect-info-node {
+    height: 65px;
+    width: 65px;
+    background-color: #d060f2;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    position: fixed;
+    bottom: 260px;
+    left: 17.25px;
+}

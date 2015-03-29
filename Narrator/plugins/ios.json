@@ -54,6 +54,12 @@
                             "xml": true,
                             "count": 1
                         }
+                    ],
+                    "CoreBluetooth.framework": [
+                        {
+                            "xml": false,
+                            "count": 1
+                        }
                     ]
                 }
             },
@@ -99,6 +105,10 @@
                         {
                             "xml": "<feature name=\"Notification\"><param name=\"ios-package\" value=\"CDVNotification\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"BLE\"><param name=\"ios-package\" value=\"EVOBLE\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -141,6 +151,9 @@
             "PACKAGE_NAME": "com.hakathon_immersive.narrator"
         },
         "org.apache.cordova.dialogs": {
+            "PACKAGE_NAME": "com.hakathon_immersive.narrator"
+        },
+        "com.evothings.ble": {
             "PACKAGE_NAME": "com.hakathon_immersive.narrator"
         }
     },

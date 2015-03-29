@@ -4,9 +4,9 @@ var mongoose = require('mongoose');
 var user = 'rschlup';
 var pass = 'zxcvbnm9';
 var connection = {
-	'host': "localhost",	// Host
+	'host': "45.55.162.87",	// Host
 	'port': 27017,			// Port
-	'db': 'hackathon',
+	'db': 'hackathon',		// database connecting to
 	'auth': 'MONGODB-CR'	// authMechanism
 };
 

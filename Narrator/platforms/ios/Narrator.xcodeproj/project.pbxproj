@@ -59,6 +59,8 @@
 		32638743E96842789BCD9620 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D31D6C1464D44EAAEB15CCB /* AddressBookUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		DD7F3843CB9045EB97878719 /* CDVNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = CC07C2C4E2B14F00A73DE4CA /* CDVNotification.m */; };
 		AA9B9C025500407997048433 /* CDVNotification.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A27162C30A0F4DCB8A0DEF2A /* CDVNotification.bundle */; };
+		41B55C9B4B0F4ECCBB1D74C7 /* EVOBLE.m in Sources */ = {isa = PBXBuildFile; fileRef = 0331CE5F3E414D2085AA64CE /* EVOBLE.m */; };
+		FC59DCF5527A4D55B121B8DF /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1FA5074D350476FB93AC6CA /* CoreBluetooth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -158,6 +160,9 @@
 		CC07C2C4E2B14F00A73DE4CA /* CDVNotification.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVNotification.m"; path = "org.apache.cordova.dialogs/CDVNotification.m"; sourceTree = "<group>"; fileEncoding = 4; };
 		97A6A450C38C4DDA9AFE967D /* CDVNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVNotification.h"; path = "org.apache.cordova.dialogs/CDVNotification.h"; sourceTree = "<group>"; fileEncoding = 4; };
 		A27162C30A0F4DCB8A0DEF2A /* CDVNotification.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = "CDVNotification.bundle"; path = "CDVNotification.bundle"; sourceTree = "<group>"; };
+		0331CE5F3E414D2085AA64CE /* EVOBLE.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EVOBLE.m"; path = "com.evothings.ble/EVOBLE.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		C854FFFFE07544FAAF1D1DD4 /* EVOBLE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EVOBLE.h"; path = "com.evothings.ble/EVOBLE.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		A1FA5074D350476FB93AC6CA /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreBluetooth.framework"; path = "System/Library/Frameworks/CoreBluetooth.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +179,7 @@
 				33F5831F1BF24CD797FEE148 /* AudioToolbox.framework in Frameworks */,
 				180270F9551545DF8C9CB126 /* AddressBook.framework in Frameworks */,
 				32638743E96842789BCD9620 /* AddressBookUI.framework in Frameworks */,
+				FC59DCF5527A4D55B121B8DF /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +258,7 @@
 				941C584725884CF79F59AF1C /* AudioToolbox.framework */,
 				5E9E18627B954E91B5D632E8 /* AddressBook.framework */,
 				8D31D6C1464D44EAAEB15CCB /* AddressBookUI.framework */,
+				A1FA5074D350476FB93AC6CA /* CoreBluetooth.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -295,6 +302,8 @@
 				A503EE1678B743CABA9694B8 /* CDVContact.h */,
 				CC07C2C4E2B14F00A73DE4CA /* CDVNotification.m */,
 				97A6A450C38C4DDA9AFE967D /* CDVNotification.h */,
+				0331CE5F3E414D2085AA64CE /* EVOBLE.m */,
+				C854FFFFE07544FAAF1D1DD4 /* EVOBLE.h */,
 			);
 			name = Plugins;
 			path = "Narrator/Plugins";
@@ -494,6 +503,7 @@
 				0D072A739E0043C69336415D /* CDVContacts.m in Sources */,
 				640D89F0761E4860B55DA415 /* CDVContact.m in Sources */,
 				DD7F3843CB9045EB97878719 /* CDVNotification.m in Sources */,
+				41B55C9B4B0F4ECCBB1D74C7 /* EVOBLE.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
