@@ -4,8 +4,8 @@
             <div class="item item-divider">
                 Beacons near you
             </div>
-            <div class="item">
-                <strong>Beacon </strong> &nbsp {{label}}
+            <div class="item" ng-repeat="beacon in beacons_info">
+                <div class="" ng-click="showBeacon(beacon.beacon)"><strong>Beacon </strong> &nbsp {{beacon.beacon.MblDisplayName}}</div>
             </div>
         </div>
     </ion-content>

@@ -1,21 +1,22 @@
 angular.module('demo.greeting.ctrl', [])
 
-    .controller('GreetingCtrl', function ($scope,$http,$resource) {
-        $scope.login = '';
-
-        $resource('http://45.55.162.87:3000/users/login?email=:email&password=:password',{
-            'email': "dick123@gmail.com",
-            'password':'zxcvbnm9'
-        },{
-            get:{
-                method:'get'
+    .controller('GreetingCtrl', function ($scope,$http,$rootScope,$location) {
+        $scope.login = {};
+        //email=dick123@gmail.com&password=zxcvbnm9
+        //email=rob@robmail.com&password=zxcvbnm9
+    $scope.signin = function(){
+        $http.get('http://45.55.162.87/users/login?email='+$scope.login.email+'&password='+$scope.login.password).success(function(data){
+            $rootScope.user = data.user;
+            $rootScope.user.isLogged = true;
+            if(!$rootScope.user.active){
+                $location.path('/printer')
+            } else {
+                $location.path('/landing')
             }
         })
+    }
 
-            .success(function(data){
-                //$scope.beacon = data;
-                $scope.user = data;
-            });
+
 
 
     });

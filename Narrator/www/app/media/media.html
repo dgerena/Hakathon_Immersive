@@ -1,7 +1,10 @@
-<ion-view title="Media">
+<ion-view title="Info">
   <ion-content padding="true">
-
+      <img src="{{p_beacon.ListImage}}">
     <br>
+      <h2>{{p_beacon.MblDisplayName}}</h2>
+      <span>{{p_beacon.Category}}</span>
+      <p>{{p_beacon.MblShortDescription}}</p>
     <div class="button button-block" ng-click="playMedia()">Play</div>
 
 

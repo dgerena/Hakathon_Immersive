@@ -1,8 +1,7 @@
 angular.module('demo.media.ctrl', [])
 
-  .controller('MediaCtrl', function ($scope, $ionicPlatform, $cordovaMedia) {
+  .controller('MediaCtrl', function ($scope, $ionicPlatform, $rootScope) {
     var thisMedia;
-
     $ionicPlatform.ready(function () {
       thisMedia = $cordovaMedia.newMedia('/sample.mp3');
     });
