@@ -17,15 +17,15 @@ urlCat=[
 	"WaterParks"
 	]
 
-allurl = "https://servicesstg.universalorlando.com/api/PointsOfInterest?ApiKey=Hackathon1&Token=9ebc55c9-b5e4-4695-83c5-ade19ea6df4c"
+// allurl = "https://servicesstg.universalorlando.com/api/PointsOfInterest?ApiKey=Hackathon1&Token=9ebc55c9-b5e4-4695-83c5-ade19ea6df4c";
 
-allurl = "https://servicesstg.universalorlando.com/api/PointsOfInterest/"+urlCat+"?ApiKey=Hackathon1&Token=9ebc55c9-b5e4-4695-83c5-ade19ea6df4c"
+// allurl = "https://servicesstg.universalorlando.com/api/PointsOfInterest/"+urlCat+"?ApiKey=Hackathon1&Token=9ebc55c9-b5e4-4695-83c5-ade19ea6df4c"
 
 
 
 function UniversalApi(apiKey, token){
 	this.cats = function(){
-		return
+		return ;
 	}
 }
 

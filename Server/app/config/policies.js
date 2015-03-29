@@ -16,7 +16,9 @@ module.exports = {
 		}else{
 			// go home you're drunk
 			// and need to log in
-			res.redirect('/');
+			res.json({
+				'Error': "You are not logged in!"
+			});
 		}
 	},
 };

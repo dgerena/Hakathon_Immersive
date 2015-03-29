@@ -28,6 +28,11 @@ module.exports = {
 	'email': {
 		'user': 'marketing@portlightllc.com',
 		'pass': 'marketme123'
+	},
+
+	'hack1': {
+		'ApiKey':'Hackathon1',
+		'Token':'9ebc55c9-b5e4-4695-83c5-ade19ea6df4c'
 	}
 
 };
