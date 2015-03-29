@@ -9,5 +9,8 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
-    <!--<preference name="auto-hide-splash-screen" value="false" />-->
+    <!--<feature name="SplashScreen">-->
+        <!--<param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />-->
+        <!--<param name="ios-package" value="CDVSplashScreen" />-->
+    <!--</feature>-->
 </widget>
