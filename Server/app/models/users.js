@@ -14,15 +14,14 @@ module.exports = {
 	'name': String,
 	'email': String,
 	'username': String,
+	'lastSeen': [ Number ],
+	'attending': [ String ],
 	'password': {
 		'type': String,
 		'set': function (x) {
 			return sha(x);
 		}
 	},
-	'attending': [
-		String
-	],
 	'visited': [ { 
 		'location': String, 
 		'at': Date 
