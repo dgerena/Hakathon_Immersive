@@ -7,6 +7,10 @@ module.exports = {
 		'default': uuid.v4()
 	},
 	'facebookId': String,
+	'active':{
+		'type': Boolean,
+		'default': true
+	},
 	'name': String,
 	'email': String,
 	'username': String,
