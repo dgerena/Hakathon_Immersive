@@ -15,11 +15,10 @@ angular.module('demo.loading.ctrl', [])
                 {uuid:'A4950001-C5B1-4B44-B512-1370F02D74DE'}
             ];
 
-        $scope.beacons_info = []
+        $scope.beacons_info = [];
         $scope.visit = 'http://45.55.162.87/users/visit/';
         angular.forEach(regions, function(uid){
             $http.get($scope.visit+uid.uuid+"?uuid="+$rootScope.user.uuid).success(function(data){
-
                 $scope.beacons_info.push({beacon: data})
                 console.log($scope.beacons_info)
             })

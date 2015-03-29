@@ -6,7 +6,7 @@ angular.module('demo.dialogs.ctrl', [])
 
     $scope.alert = function () {
       $scope.action = "Alert";
-      $cordovaDialogs.alert('Wow!');
+      $cordovaDialogs.alert('New Beacon','Wow!');
     };
 
     $scope.confirm = function () {

@@ -48,6 +48,7 @@
     "https://github.com/EddyVerbruggen/cordova-plugin-actionsheet.git",
     "https://github.com/Telerik-Verified-Plugins/HealthKit",
     "de.appplant.cordova.plugin.badge",
-    "https://github.com/petermetz/cordova-plugin-ibeacon.git"
+    "https://github.com/petermetz/cordova-plugin-ibeacon.git",
+    "https://github.com/katzer/cordova-plugin-local-notifications"
   ]
 }

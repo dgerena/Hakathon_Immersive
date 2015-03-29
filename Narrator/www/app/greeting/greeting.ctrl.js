@@ -11,7 +11,7 @@ angular.module('demo.greeting.ctrl', [])
             if(!$rootScope.user.active){
                 $location.path('/printer')
             } else {
-                $location.path('/landing')
+                    $location.path('/landing')
             }
         })
     }

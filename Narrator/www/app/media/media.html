@@ -5,10 +5,9 @@
       <h2>{{p_beacon.MblDisplayName}}</h2>
       <span>{{p_beacon.Category}}</span>
       <p>{{p_beacon.MblShortDescription}}</p>
-    <div class="button button-block" ng-click="playMedia()">Play</div>
+      <div ng-if="p_beacon.FunFact!=null">
+          <p class="fun-fact"><span>Fun Fact:<span> {{p_beacon.FunFact}}</p>
+      </div>
 
-
-    <p>{{media}}</p>
-    <div class="button button-block" ng-click="stopMedia()">Stop</div>
   </ion-content>
 </ion-view>
