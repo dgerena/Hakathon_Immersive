@@ -46,6 +46,9 @@
     <feature name="Notification">
         <param name="ios-package" value="CDVNotification" />
     </feature>
+    <feature name="BLE">
+        <param name="ios-package" value="EVOBLE" />
+    </feature>
     <name>Narrator</name>
     <description>
         A leading mobile app to immersive guest to Universal experience.
@@ -55,7 +58,5 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
-    <feature name="BLE">
-        <param name="ios-package" value="EVOBLE" />
-    </feature>
+    <preference name="auto-hide-splash-screen" value="false" />
 </widget>

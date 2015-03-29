@@ -1,14 +1,14 @@
 <ion-view title="Login">
     <ion-content>
-        <div ng-show="login" class="list">
+        <div ng-show="isLogin" class="list">
             <label class="item item-input">
                 <input type="text" placeholder="Email">
             </label>
             <label class="item item-input">
-                <input type="text" placeholder="Password">
+                <input type="password" placeholder="Password">
             </label>
         </div>
-        <div ng-show="!login" class="list">
+        <div ng-show="!isLogin" class="list">
             <label class="item item-input item-floating-label">
                 <span class="input-label">First Name</span>
                 <input type="text" placeholder="First Name">
@@ -22,7 +22,15 @@
                 <input type="text" placeholder="Email">
             </label>
         </div>
-        <button ng-show="login" class="button button-full button-positive">login</button>
-        <button ng-show="!login" class="button button-full button-positive">create account</button>
+        <div ng-show="isLogin" >
+            <button class="button button-full button-positive" ng-click="login()">login</button>
+            <p>OR</p>
+            <button class="button button-full button-positive" ng-click="facebookLogin()">Facebook</button>
+            <button ng-click="isLogin=!isLogin" class="button button-full button-positive">create account</button>
+        </div>
+        <div ng-show="!isLogin" >
+            <button ng-show="!isLogin" ng-click="signup()" class="button button-full button-positive">sign up</button>
+            <p ng-click="isLogin=!isLogin">already have an account?</p>
+        </div>
     </ion-content>
 </ion-view>

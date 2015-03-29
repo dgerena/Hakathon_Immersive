@@ -1,12 +1,19 @@
 var narrator = angular.module('narrator', ['ngCordova','ionic'])
-    .run(function ($rootScope, $cordovaNetwork, $cordovaBatteryStatus, $cordovaLocalNotification,$ionicPlatform, $cordovaPush,$http,API_URL,API) {
+    .run(function ($rootScope, $cordovaNetwork, $cordovaBatteryStatus,$cordovaSplashscreen, $cordovaLocalNotification,$ionicPlatform, $ionicSideMenuDelegate,$cordovaPush,$http,API_URL,API) {
         $ionicPlatform.ready(function () {
+            setTimeout(function() {
+                $cordovaSplashscreen.hide()
+            }, 5000)
             if (window.cordova && window.cordova.plugins.Keyboard) {
                 cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
             }
             if (window.StatusBar) {
                 StatusBar.styleDefault();
             }
+
+            $scope.toggleLeft = function() {
+                $ionicSideMenuDelegate.toggleLeft();
+            };
 
             $cordovaLocalNotification.registerPermission().then(function () {
                 alert("registered");
@@ -56,10 +63,10 @@ var narrator = angular.module('narrator', ['ngCordova','ionic'])
                 //alert("status: " + status);
             })
         });
-            $http.get(API_URL.points_interest+'?ApiKey='+API.key+'&Token='+API.token)
-                .success(function(data){
-                    console.log(data)
-                })
+            //$http.get(API_URL.points_interest+'?ApiKey='+API.key+'&Token='+API.token)
+            //    .success(function(data){
+            //        console.log(data)
+            //    })
     })
 
     .constant('API_URL', {
@@ -74,8 +81,8 @@ var narrator = angular.module('narrator', ['ngCordova','ionic'])
         document.addEventListener("deviceready", function () {}, false);
 
         $stateProvider
-            .state('login',{url:'/',templateUrl:'app/login/login.html',controller: 'Login'})
-            .state('dashboard',{url:'/dashboard',templateUrl:'app/landing/landing.html'});
+            .state('login',{url:'/dashboard',templateUrl:'app/login/login.html',controller: 'Login'})
+            .state('dashboard',{url:'/',templateUrl:'app/landing/landing.html',controller: 'Landing'});
 
         $urlRouterProvider.otherwise('/dashboard');
 
