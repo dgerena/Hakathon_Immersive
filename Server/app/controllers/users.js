@@ -4,14 +4,12 @@ var sha = require("js-sha256").sha256;
 var qs = require("querystring");
 var unirest = require('unirest');
 
-var type = 'query'
-console.log("hi.....");
-route.get('/signup',function (req,res){
+route.post('/signup',function (req,res){
 	Models.users
 		.findOne({
 			'$or': [
-				{'user': req[type].username},
-				{'email': {'$in' :[req[type].email, req[type].username]} },
+				{'user': req.body.username},
+				{'email': {'$in' :[req.body.email, req.body.username]} },
 			]
 		})
 		.exec(function (err, users) {
@@ -22,11 +20,11 @@ route.get('/signup',function (req,res){
 				});
 			}else{
 				var user = new Models.users
-				user.user = req[type].username;
-				user.password = req[type].password;
-				user.facebookId = req[type].facebookId;
-				user.name = req[type].name;
-				user.email = req[type].email;
+				user.user = req.body.username;
+				user.password = req.body.password;
+				user.facebookId = req.body.facebookId;
+				user.name = req.body.name;
+				user.email = req.body.email;
 				user.attending = [];
 				user.visited = [];
 
@@ -40,12 +38,12 @@ route.get('/signup',function (req,res){
 		});
 });
 
-route.get('/login',function (req,res){
+route.post('/login',function (req,res){
 	Models.users
 		.findOne({
 			'$or': [
-				{'user': req[type].username},
-				{'email': {'$in' :[req[type].email, req[type].username]} },
+				{'user': req.body.username},
+				{'email': {'$in' :[req.body.email, req.body.username]} },
 			]
 		})
 		.exec(function (err, user) {
@@ -54,7 +52,7 @@ route.get('/login',function (req,res){
 					'passed': false,
 					'error': "That user doesn't exist"
 				});
-			}else if(user.password === sha(req[type].password)){
+			}else if(user.password === sha(req.body.password)){
 				req.session.user = user;
 				res.json({
 					'user': user
@@ -66,7 +64,7 @@ route.get('/login',function (req,res){
 
 route.all('/visit*', app.policies.mustBeLoggedIn);
 
-route.get('/visit/:uuid',function (req,res){
+route.post('/visit/:uuid',function (req,res){
 	console.log('well hi there.');
 	async.parallel({
 		'user': function(done){
