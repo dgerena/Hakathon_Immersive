@@ -1,4 +1,4 @@
 dependencies: \
-  /Users/bisikennadi/Sites/Hakathon_Immersive/Narrator/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m \
-  /Users/bisikennadi/Sites/Hakathon_Immersive/Narrator/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h \
-  /Users/bisikennadi/Sites/Hakathon_Immersive/Narrator/platforms/ios/CordovaLib/Classes/CDVAvailabilityDeprecated.h
+  /Users/bisikennadi/Downloads/ng-cordova-master/demo/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m \
+  /Users/bisikennadi/Downloads/ng-cordova-master/demo/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h \
+  /Users/bisikennadi/Downloads/ng-cordova-master/demo/platforms/ios/CordovaLib/Classes/CDVAvailabilityDeprecated.h

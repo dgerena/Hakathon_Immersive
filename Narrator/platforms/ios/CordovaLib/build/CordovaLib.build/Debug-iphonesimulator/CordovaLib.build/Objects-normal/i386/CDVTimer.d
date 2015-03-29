@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/bisikennadi/Sites/Hakathon_Immersive/Narrator/platforms/ios/CordovaLib/Classes/CDVTimer.m \
-  /Users/bisikennadi/Sites/Hakathon_Immersive/Narrator/platforms/ios/CordovaLib/Classes/CDVTimer.h
+  /Users/bisikennadi/Downloads/ng-cordova-master/demo/platforms/ios/CordovaLib/Classes/CDVTimer.m \
+  /Users/bisikennadi/Downloads/ng-cordova-master/demo/platforms/ios/CordovaLib/Classes/CDVTimer.h

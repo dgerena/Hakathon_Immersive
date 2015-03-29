@@ -2,88 +2,740 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31f5076a-1b56-48e5-8495-c489c8d13cae" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/assets/www/plugins/com.evothings.ble/ble.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/assets/www/plugins/org.apache.cordova.splashscreen/www/splashscreen.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/src/com/evothings/BLE.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/src/org/apache/cordova/splashscreen/SplashScreen.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Plugins/com.evothings.ble/EVOBLE.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Plugins/com.evothings.ble/EVOBLE.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Plugins/org.apache.cordova.splashscreen/CDVSplashScreen.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Plugins/org.apache.cordova.splashscreen/CDVSplashScreen.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/plugins/com.evothings.ble/ble.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/plugins/org.apache.cordova.splashscreen/www/splashscreen.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/plugins/com.evothings.ble/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/plugins/com.evothings.ble/ble.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/plugins/com.evothings.ble/conf.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/plugins/com.evothings.ble/introduction.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/plugins/com.evothings.ble/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/plugins/com.evothings.ble/plugin.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/plugins/com.evothings.ble/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/plugins/com.evothings.ble/src/android/BLE.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/plugins/com.evothings.ble/src/ios/EVOBLE.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/plugins/com.evothings.ble/src/ios/EVOBLE.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/plugins/com.evothings.ble/tests/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/plugins/com.evothings.ble/tests/test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/plugins/org.apache.cordova.splashscreen/CONTRIBUTING.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/plugins/org.apache.cordova.splashscreen/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/plugins/org.apache.cordova.splashscreen/NOTICE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/plugins/org.apache.cordova.splashscreen/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/plugins/org.apache.cordova.splashscreen/RELEASENOTES.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/plugins/org.apache.cordova.splashscreen/doc/de/index.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/plugins/org.apache.cordova.splashscreen/doc/es/index.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/plugins/org.apache.cordova.splashscreen/doc/fr/index.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/plugins/org.apache.cordova.splashscreen/doc/index.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/plugins/org.apache.cordova.splashscreen/doc/it/index.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/plugins/org.apache.cordova.splashscreen/doc/ja/index.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/plugins/org.apache.cordova.splashscreen/doc/ko/index.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/plugins/org.apache.cordova.splashscreen/doc/pl/index.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/plugins/org.apache.cordova.splashscreen/doc/ru/index.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/plugins/org.apache.cordova.splashscreen/doc/zh/index.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/plugins/org.apache.cordova.splashscreen/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/plugins/org.apache.cordova.splashscreen/plugin.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/plugins/org.apache.cordova.splashscreen/src/android/SplashScreen.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/plugins/org.apache.cordova.splashscreen/src/blackberry10/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/plugins/org.apache.cordova.splashscreen/src/ios/CDVSplashScreen.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/plugins/org.apache.cordova.splashscreen/src/ios/CDVSplashScreen.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/plugins/org.apache.cordova.splashscreen/src/tizen/SplashScreenProxy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/plugins/org.apache.cordova.splashscreen/src/ubuntu/splashscreen.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/plugins/org.apache.cordova.splashscreen/src/ubuntu/splashscreen.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/plugins/org.apache.cordova.splashscreen/src/wp/SplashScreen.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/plugins/org.apache.cordova.splashscreen/tests/ios/CDVSplashScreenTest.xcworkspace/contents.xcworkspacedata" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/plugins/org.apache.cordova.splashscreen/tests/ios/CDVSplashScreenTest.xcworkspace/xcshareddata/CDVSplashScreenTest.xccheckout" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/plugins/org.apache.cordova.splashscreen/tests/ios/CDVSplashScreenTest.xcworkspace/xcshareddata/xcschemes/CordovaLib.xcscheme" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/plugins/org.apache.cordova.splashscreen/tests/ios/CDVSplashScreenTest/CDVSplashScreenLibTests/ImageNameTest.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/plugins/org.apache.cordova.splashscreen/tests/ios/CDVSplashScreenTest/CDVSplashScreenLibTests/ImageNameTestDelegates.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/plugins/org.apache.cordova.splashscreen/tests/ios/CDVSplashScreenTest/CDVSplashScreenLibTests/ImageNameTestDelegates.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/plugins/org.apache.cordova.splashscreen/tests/ios/CDVSplashScreenTest/CDVSplashScreenLibTests/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/plugins/org.apache.cordova.splashscreen/tests/ios/CDVSplashScreenTest/CDVSplashScreenTest.xcodeproj/project.pbxproj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/plugins/org.apache.cordova.splashscreen/tests/ios/CDVSplashScreenTest/CDVSplashScreenTest.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/plugins/org.apache.cordova.splashscreen/tests/ios/CDVSplashScreenTest/CDVSplashScreenTest.xcodeproj/project.xcworkspace/xcshareddata/CDVSplashScreenTest.xccheckout" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/plugins/org.apache.cordova.splashscreen/tests/ios/CDVSplashScreenTest/CDVSplashScreenTest.xcodeproj/xcshareddata/xcschemes/CDVSplashScreenLib.xcscheme" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/plugins/org.apache.cordova.splashscreen/tests/ios/CDVSplashScreenTest/CDVSplashScreenTest.xcodeproj/xcshareddata/xcschemes/CDVSplashScreenLibTests.xcscheme" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/plugins/org.apache.cordova.splashscreen/tests/ios/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/plugins/org.apache.cordova.splashscreen/tests/ios/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/plugins/org.apache.cordova.splashscreen/tests/plugin.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/plugins/org.apache.cordova.splashscreen/tests/tests.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/plugins/org.apache.cordova.splashscreen/www/splashscreen.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/plugins/org.apache.cordova.splashscreen/www/windows8/SplashScreenProxy.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/android/AndroidManifest.xml" afterPath="$PROJECT_DIR$/Narrator/platforms/android/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/plugins/android.json" afterPath="$PROJECT_DIR$/Narrator/plugins/android.json" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/cordova.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/project.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/Address.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/Connection.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/ConnectionPool.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/Dispatcher.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/Failure.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/HttpResponseCache.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/Job.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/MediaType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/OkAuthenticator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/OkHttpClient.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/OkResponseCache.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/Request.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/Response.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/ResponseSource.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/Route.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/RouteDatabase.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/TunnelRequest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/AbstractOutputStream.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/Base64.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/DiskLruCache.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/Dns.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/FaultRecoveringOutputStream.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/NamedRunnable.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/Platform.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/StrictLineReader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/Util.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/http/AbstractHttpInputStream.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/http/HeaderParser.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/http/HttpAuthenticator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/http/HttpDate.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/http/HttpEngine.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/http/HttpTransport.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/http/HttpURLConnectionImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/http/HttpsEngine.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/http/HttpsURLConnectionImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/http/OkResponseCacheAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/http/Policy.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/http/RawHeaders.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/http/RequestHeaders.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/http/ResponseHeaders.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/http/RetryableOutputStream.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/http/RouteSelector.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/http/SpdyTransport.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/http/Transport.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/http/UnknownLengthHttpInputStream.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/spdy/ErrorCode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/spdy/FrameReader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/spdy/FrameWriter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/spdy/HeadersMode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/spdy/Hpack.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/spdy/Http20Draft06.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/spdy/IncomingStreamHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/spdy/NameValueBlockReader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/spdy/Ping.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/spdy/Settings.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/spdy/Spdy3.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/spdy/SpdyConnection.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/spdy/SpdyStream.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/spdy/Variant.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/tls/DistinguishedNameParser.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/com/squareup/okhttp/internal/tls/OkHostnameVerifier.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/org/apache/cordova/App.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/org/apache/cordova/AuthenticationToken.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/org/apache/cordova/CallbackContext.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/org/apache/cordova/Config.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/org/apache/cordova/ConfigXmlParser.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/org/apache/cordova/CordovaActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/org/apache/cordova/CordovaArgs.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/org/apache/cordova/CordovaBridge.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/org/apache/cordova/CordovaChromeClient.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/org/apache/cordova/CordovaClientCertRequest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/org/apache/cordova/CordovaHttpAuthHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/org/apache/cordova/CordovaInterface.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/org/apache/cordova/CordovaPlugin.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/org/apache/cordova/CordovaPreferences.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/org/apache/cordova/CordovaResourceApi.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/org/apache/cordova/CordovaUriHelper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/org/apache/cordova/CordovaWebView.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/org/apache/cordova/CordovaWebViewClient.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/org/apache/cordova/DirectoryManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/org/apache/cordova/DroidGap.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/org/apache/cordova/ExifHelper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/org/apache/cordova/ExposedJsApi.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/org/apache/cordova/FileHelper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/org/apache/cordova/ICordovaClientCertRequest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/org/apache/cordova/ICordovaHttpAuthHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/org/apache/cordova/IceCreamCordovaWebViewClient.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/org/apache/cordova/JSONUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/org/apache/cordova/LOG.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/org/apache/cordova/LinearLayoutSoftKeyboardDetect.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/org/apache/cordova/NativeToJsMessageQueue.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/org/apache/cordova/PluginEntry.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/org/apache/cordova/PluginManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/org/apache/cordova/PluginResult.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/org/apache/cordova/ScrollEvent.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/org/apache/cordova/SplashScreenInternal.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/CordovaLib/src/org/apache/cordova/Whitelist.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/assets/_where-is-www.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/assets/www/cordova.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/assets/www/cordova_plugins.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/assets/www/css/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/assets/www/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/assets/www/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/assets/www/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/assets/www/plugins/org.apache.cordova.contacts/www/Contact.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/assets/www/plugins/org.apache.cordova.contacts/www/ContactAddress.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/assets/www/plugins/org.apache.cordova.contacts/www/ContactError.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/assets/www/plugins/org.apache.cordova.contacts/www/ContactField.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/assets/www/plugins/org.apache.cordova.contacts/www/ContactFieldType.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/assets/www/plugins/org.apache.cordova.contacts/www/ContactFindOptions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/assets/www/plugins/org.apache.cordova.contacts/www/ContactName.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/assets/www/plugins/org.apache.cordova.contacts/www/ContactOrganization.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/assets/www/plugins/org.apache.cordova.contacts/www/contacts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/assets/www/plugins/org.apache.cordova.device/www/device.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/assets/www/plugins/org.apache.cordova.dialogs/www/android/notification.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/assets/www/plugins/org.apache.cordova.dialogs/www/notification.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/assets/www/plugins/org.apache.cordova.file/www/DirectoryEntry.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/assets/www/plugins/org.apache.cordova.file/www/DirectoryReader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/assets/www/plugins/org.apache.cordova.file/www/Entry.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/assets/www/plugins/org.apache.cordova.file/www/File.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/assets/www/plugins/org.apache.cordova.file/www/FileEntry.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/assets/www/plugins/org.apache.cordova.file/www/FileError.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/assets/www/plugins/org.apache.cordova.file/www/FileReader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/assets/www/plugins/org.apache.cordova.file/www/FileSystem.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/assets/www/plugins/org.apache.cordova.file/www/FileUploadOptions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/assets/www/plugins/org.apache.cordova.file/www/FileUploadResult.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/assets/www/plugins/org.apache.cordova.file/www/FileWriter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/assets/www/plugins/org.apache.cordova.file/www/Flags.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/assets/www/plugins/org.apache.cordova.file/www/LocalFileSystem.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/assets/www/plugins/org.apache.cordova.file/www/Metadata.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/assets/www/plugins/org.apache.cordova.file/www/ProgressEvent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/assets/www/plugins/org.apache.cordova.file/www/android/FileSystem.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/assets/www/plugins/org.apache.cordova.file/www/fileSystemPaths.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/assets/www/plugins/org.apache.cordova.file/www/fileSystems-roots.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/assets/www/plugins/org.apache.cordova.file/www/fileSystems.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/assets/www/plugins/org.apache.cordova.file/www/requestFileSystem.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/assets/www/plugins/org.apache.cordova.file/www/resolveLocalFileSystemURI.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/assets/www/plugins/org.apache.cordova.media/www/Media.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/assets/www/plugins/org.apache.cordova.media/www/MediaError.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/assets/www/plugins/org.apache.cordova.network-information/www/Connection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/assets/www/plugins/org.apache.cordova.network-information/www/network.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/assets/www/plugins/org.apache.cordova.vibration/www/vibration.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/cordova/android_sdk_version" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/cordova/build" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/cordova/build.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/cordova/check_reqs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/cordova/clean" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/cordova/clean.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/cordova/defaults.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/cordova/lib/android_sdk_version.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/cordova/lib/appinfo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/cordova/lib/build.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/cordova/lib/check_reqs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/cordova/lib/device.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/cordova/lib/emulator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/cordova/lib/exec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/cordova/lib/install-device" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/cordova/lib/install-device.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/cordova/lib/install-emulator" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/cordova/lib/install-emulator.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/cordova/lib/list-devices" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/cordova/lib/list-devices.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/cordova/lib/list-emulator-images" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/cordova/lib/list-emulator-images.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/cordova/lib/list-started-emulators" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/cordova/lib/list-started-emulators.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/cordova/lib/log.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/cordova/lib/plugin-build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/cordova/lib/run.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/cordova/lib/spawn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/cordova/lib/start-emulator" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/cordova/lib/start-emulator.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/cordova/log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/cordova/log.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/cordova/run" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/cordova/run.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/cordova/version" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/cordova/version.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/custom_rules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/platform_www/cordova.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/project.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/res/drawable-hdpi/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/res/drawable-land-hdpi/screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/res/drawable-land-ldpi/screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/res/drawable-land-mdpi/screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/res/drawable-land-xhdpi/screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/res/drawable-ldpi/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/res/drawable-mdpi/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/res/drawable-port-hdpi/screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/res/drawable-port-ldpi/screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/res/drawable-port-mdpi/screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/res/drawable-port-xhdpi/screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/res/drawable-xhdpi/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/res/drawable/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/res/values/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/res/xml/config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/src/com/hakathon_immersive/narrator/MainActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/src/org/apache/cordova/contacts/ContactAccessor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/src/org/apache/cordova/contacts/ContactAccessorSdk5.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/src/org/apache/cordova/contacts/ContactInfoDTO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/src/org/apache/cordova/contacts/ContactManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/src/org/apache/cordova/device/Device.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/src/org/apache/cordova/dialogs/Notification.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/src/org/apache/cordova/file/ContentFilesystem.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/src/org/apache/cordova/file/DirectoryManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/src/org/apache/cordova/file/EncodingException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/src/org/apache/cordova/file/FileExistsException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/src/org/apache/cordova/file/FileHelper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/src/org/apache/cordova/file/FileUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/src/org/apache/cordova/file/Filesystem.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/src/org/apache/cordova/file/InvalidModificationException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/src/org/apache/cordova/file/LocalFilesystem.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/src/org/apache/cordova/file/LocalFilesystemURL.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/src/org/apache/cordova/file/NoModificationAllowedException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/src/org/apache/cordova/file/TypeMismatchException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/src/org/apache/cordova/media/AudioHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/src/org/apache/cordova/media/AudioPlayer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/src/org/apache/cordova/media/FileHelper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/src/org/apache/cordova/networkinformation/NetworkManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/android/src/org/apache/cordova/vibration/Vibration.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator.xcodeproj/project.pbxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Classes/AppDelegate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Classes/AppDelegate.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Classes/MainViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Classes/MainViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Classes/MainViewController.xib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Narrator-Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Narrator-Prefix.pch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Plugins/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Plugins/org.apache.cordova.console/CDVLogger.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Plugins/org.apache.cordova.console/CDVLogger.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Plugins/org.apache.cordova.contacts/CDVContact.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Plugins/org.apache.cordova.contacts/CDVContact.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Plugins/org.apache.cordova.contacts/CDVContacts.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Plugins/org.apache.cordova.contacts/CDVContacts.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Plugins/org.apache.cordova.device/CDVDevice.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Plugins/org.apache.cordova.device/CDVDevice.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Plugins/org.apache.cordova.dialogs/CDVNotification.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Plugins/org.apache.cordova.dialogs/CDVNotification.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Plugins/org.apache.cordova.file/CDVAssetLibraryFilesystem.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Plugins/org.apache.cordova.file/CDVAssetLibraryFilesystem.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Plugins/org.apache.cordova.file/CDVFile.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Plugins/org.apache.cordova.file/CDVFile.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Plugins/org.apache.cordova.file/CDVLocalFilesystem.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Plugins/org.apache.cordova.file/CDVLocalFilesystem.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Plugins/org.apache.cordova.geolocation/CDVLocation.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Plugins/org.apache.cordova.geolocation/CDVLocation.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Plugins/org.apache.cordova.media/CDVSound.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Plugins/org.apache.cordova.media/CDVSound.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Plugins/org.apache.cordova.network-information/CDVConnection.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Plugins/org.apache.cordova.network-information/CDVConnection.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Plugins/org.apache.cordova.network-information/CDVReachability.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Plugins/org.apache.cordova.network-information/CDVReachability.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Plugins/org.apache.cordova.vibration/CDVVibration.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Plugins/org.apache.cordova.vibration/CDVVibration.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Resources/CDVNotification.bundle/beep.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Resources/icons/icon-40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Resources/icons/icon-40@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Resources/icons/icon-50.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Resources/icons/icon-50@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Resources/icons/icon-60.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Resources/icons/icon-60@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Resources/icons/icon-60@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Resources/icons/icon-72.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Resources/icons/icon-72@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Resources/icons/icon-76.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Resources/icons/icon-76@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Resources/icons/icon-small.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Resources/icons/icon-small@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Resources/icons/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Resources/icons/icon@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Resources/splash/Default-568h@2x~iphone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Resources/splash/Default-667h.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Resources/splash/Default-736h.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Resources/splash/Default-Landscape-736h.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Resources/splash/Default-Landscape@2x~ipad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Resources/splash/Default-Landscape~ipad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Resources/splash/Default-Portrait@2x~ipad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Resources/splash/Default-Portrait~ipad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Resources/splash/Default@2x~iphone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/Resources/splash/Default~iphone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/main.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/MainViewController-PartialInfo.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Narrator-all-non-framework-target-headers.hmap" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Narrator-all-target-headers.hmap" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Narrator-generated-files.hmap" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Narrator-own-target-headers.hmap" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Narrator-project-headers.hmap" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Narrator.hmap" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Objects-normal/i386/AppDelegate.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Objects-normal/i386/AppDelegate.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Objects-normal/i386/AppDelegate.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Objects-normal/i386/CDVAssetLibraryFilesystem.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Objects-normal/i386/CDVAssetLibraryFilesystem.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Objects-normal/i386/CDVAssetLibraryFilesystem.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Objects-normal/i386/CDVConnection.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Objects-normal/i386/CDVConnection.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Objects-normal/i386/CDVConnection.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Objects-normal/i386/CDVContact.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Objects-normal/i386/CDVContact.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Objects-normal/i386/CDVContact.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Objects-normal/i386/CDVContacts.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Objects-normal/i386/CDVContacts.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Objects-normal/i386/CDVContacts.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Objects-normal/i386/CDVDevice.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Objects-normal/i386/CDVDevice.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Objects-normal/i386/CDVDevice.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Objects-normal/i386/CDVFile.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Objects-normal/i386/CDVFile.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Objects-normal/i386/CDVFile.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Objects-normal/i386/CDVLocalFilesystem.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Objects-normal/i386/CDVLocalFilesystem.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Objects-normal/i386/CDVLocalFilesystem.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Objects-normal/i386/CDVLocation.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Objects-normal/i386/CDVLocation.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Objects-normal/i386/CDVLocation.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Objects-normal/i386/CDVLogger.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Objects-normal/i386/CDVLogger.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Objects-normal/i386/CDVLogger.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Objects-normal/i386/CDVNotification.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Objects-normal/i386/CDVNotification.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Objects-normal/i386/CDVNotification.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Objects-normal/i386/CDVReachability.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Objects-normal/i386/CDVReachability.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Objects-normal/i386/CDVReachability.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Objects-normal/i386/CDVSound.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Objects-normal/i386/CDVSound.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Objects-normal/i386/CDVSound.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Objects-normal/i386/CDVSplashScreen.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Objects-normal/i386/CDVSplashScreen.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Objects-normal/i386/CDVSplashScreen.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Objects-normal/i386/CDVVibration.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Objects-normal/i386/CDVVibration.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Objects-normal/i386/CDVVibration.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Objects-normal/i386/EVOBLE.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Objects-normal/i386/EVOBLE.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Objects-normal/i386/EVOBLE.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Objects-normal/i386/MainViewController.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Objects-normal/i386/MainViewController.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Objects-normal/i386/MainViewController.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Objects-normal/i386/Narrator.LinkFileList" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Objects-normal/i386/Narrator_dependency_info.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Objects-normal/i386/main.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Objects-normal/i386/main.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Objects-normal/i386/main.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/Script-304B58A110DAC018002A0835.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/Narrator.build/Debug-iphonesimulator/Narrator.build/dgph" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app.dSYM/Contents/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app.dSYM/Contents/Resources/DWARF/Narrator" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/CDVNotification.bundle/beep.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/Default-568h@2x~iphone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/Default-667h.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/Default-736h.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/Default-Landscape-736h.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/Default-Landscape@2x~ipad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/Default-Landscape~ipad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/Default-Portrait@2x~ipad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/Default-Portrait~ipad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/Default@2x~iphone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/Default~iphone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/MainViewController.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/Narrator" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/PkgInfo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/icon-40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/icon-40@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/icon-50.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/icon-50@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/icon-60.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/icon-60@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/icon-60@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/icon-72.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/icon-72@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/icon-76.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/icon-76@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/icon-small.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/icon-small@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/icon@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/app/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/app/factory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/app/greeting/greeting.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/app/greeting/gretting.ctrl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/app/info/info.ctrl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/app/info/info.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/app/landing/landing.ctrl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/app/landing/landing.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/app/login/login.ctrl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/app/login/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/app/service.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/cordova.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/cordova_plugins.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/css/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/angular-animate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/angular-animate/angular-animate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/angular-animate/angular-animate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/angular-animate/angular-animate.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/angular-animate/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/angular-animate/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/angular-sanitize/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/angular-sanitize/angular-sanitize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/angular-sanitize/angular-sanitize.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/angular-sanitize/angular-sanitize.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/angular-sanitize/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/angular-sanitize/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/angular-ui-router/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/angular-ui-router/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/angular-ui-router/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/angular-ui-router/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/angular-ui-router/api/angular-ui-router.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/angular-ui-router/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/angular-ui-router/release/angular-ui-router.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/angular-ui-router/release/angular-ui-router.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/angular-ui-router/src/common.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/angular-ui-router/src/resolve.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/angular-ui-router/src/state.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/angular-ui-router/src/stateDirectives.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/angular-ui-router/src/stateFilters.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/angular-ui-router/src/templateFactory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/angular-ui-router/src/urlMatcherFactory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/angular-ui-router/src/urlRouter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/angular-ui-router/src/view.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/angular-ui-router/src/viewDirective.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/angular-ui-router/src/viewScroll.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/angular/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/angular/angular-csp.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/angular/angular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/angular/angular.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/angular/angular.min.js.gzip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/angular/angular.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/angular/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/angular/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/evothings/evothings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/facebookConnectPlugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/gmaps.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ionic/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ionic/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ionic/css/ionic.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ionic/css/ionic.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ionic/fonts/ionicons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ionic/fonts/ionicons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ionic/fonts/ionicons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ionic/fonts/ionicons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ionic/js/ionic-angular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ionic/js/ionic-angular.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ionic/js/ionic.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ionic/js/ionic.bundle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ionic/js/ionic.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ionic/js/ionic.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ionic/scss/_action-sheet.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ionic/scss/_animations.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ionic/scss/_backdrop.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ionic/scss/_badge.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ionic/scss/_bar.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ionic/scss/_button-bar.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ionic/scss/_button.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ionic/scss/_checkbox.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ionic/scss/_form.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ionic/scss/_grid.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ionic/scss/_items.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ionic/scss/_list.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ionic/scss/_loading.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ionic/scss/_menu.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ionic/scss/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ionic/scss/_modal.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ionic/scss/_platform.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ionic/scss/_popover.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ionic/scss/_popup.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ionic/scss/_progress.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ionic/scss/_radio.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ionic/scss/_range.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ionic/scss/_reset.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ionic/scss/_scaffolding.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ionic/scss/_select.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ionic/scss/_slide-box.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ionic/scss/_split-pane.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ionic/scss/_tabs.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ionic/scss/_toggle.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ionic/scss/_transitions.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ionic/scss/_type.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ionic/scss/_util.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ionic/scss/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ionic/scss/ionic.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ionic/scss/ionicons/_ionicons-animation.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ionic/scss/ionicons/_ionicons-font.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ionic/scss/ionicons/_ionicons-icons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ionic/scss/ionicons/_ionicons-variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ionic/scss/ionicons/ionicons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ngCordova/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ngCordova/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ngCordova/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ngCordova/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ngCordova/dist/ng-cordova-mocks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ngCordova/dist/ng-cordova-mocks.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ngCordova/dist/ng-cordova.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ngCordova/dist/ng-cordova.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ngCordova/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/lib/ngDraggable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/plugins/org.apache.cordova.console/www/console-via-logger.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/plugins/org.apache.cordova.console/www/logger.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/plugins/org.apache.cordova.contacts/www/Contact.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/plugins/org.apache.cordova.contacts/www/ContactAddress.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/plugins/org.apache.cordova.contacts/www/ContactError.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/plugins/org.apache.cordova.contacts/www/ContactField.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/plugins/org.apache.cordova.contacts/www/ContactFieldType.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/plugins/org.apache.cordova.contacts/www/ContactFindOptions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/plugins/org.apache.cordova.contacts/www/ContactName.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/plugins/org.apache.cordova.contacts/www/ContactOrganization.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/plugins/org.apache.cordova.contacts/www/contacts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/plugins/org.apache.cordova.contacts/www/ios/Contact.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/plugins/org.apache.cordova.contacts/www/ios/contacts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/plugins/org.apache.cordova.device/www/device.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/plugins/org.apache.cordova.dialogs/www/notification.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/plugins/org.apache.cordova.file/www/DirectoryEntry.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/plugins/org.apache.cordova.file/www/DirectoryReader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/plugins/org.apache.cordova.file/www/Entry.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/plugins/org.apache.cordova.file/www/File.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/plugins/org.apache.cordova.file/www/FileEntry.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/plugins/org.apache.cordova.file/www/FileError.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/plugins/org.apache.cordova.file/www/FileReader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/plugins/org.apache.cordova.file/www/FileSystem.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/plugins/org.apache.cordova.file/www/FileUploadOptions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/plugins/org.apache.cordova.file/www/FileUploadResult.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/plugins/org.apache.cordova.file/www/FileWriter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/plugins/org.apache.cordova.file/www/Flags.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/plugins/org.apache.cordova.file/www/LocalFileSystem.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/plugins/org.apache.cordova.file/www/Metadata.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/plugins/org.apache.cordova.file/www/ProgressEvent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/plugins/org.apache.cordova.file/www/fileSystemPaths.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/plugins/org.apache.cordova.file/www/fileSystems-roots.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/plugins/org.apache.cordova.file/www/fileSystems.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/plugins/org.apache.cordova.file/www/ios/FileSystem.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/plugins/org.apache.cordova.file/www/requestFileSystem.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/plugins/org.apache.cordova.file/www/resolveLocalFileSystemURI.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/plugins/org.apache.cordova.geolocation/www/Coordinates.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/plugins/org.apache.cordova.geolocation/www/Position.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/plugins/org.apache.cordova.geolocation/www/PositionError.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/plugins/org.apache.cordova.geolocation/www/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/plugins/org.apache.cordova.media/www/Media.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/plugins/org.apache.cordova.media/www/MediaError.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/plugins/org.apache.cordova.network-information/www/Connection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/plugins/org.apache.cordova.network-information/www/network.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/Narrator.app/www/plugins/org.apache.cordova.vibration/www/vibration.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/sharedpch/Narrator-Prefix-chpjqpjchkmuvdglvzxtfgjzsevn/Narrator-Prefix.pch.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/sharedpch/Narrator-Prefix-chpjqpjchkmuvdglvzxtfgjzsevn/Narrator-Prefix.pch.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/sharedpch/Narrator-Prefix-chpjqpjchkmuvdglvzxtfgjzsevn/Narrator-Prefix.pch.dia" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/sharedpch/Narrator-Prefix-chpjqpjchkmuvdglvzxtfgjzsevn/Narrator-Prefix.pch.pch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/sharedpch/Narrator-Prefix-chpjqpjchkmuvdglvzxtfgjzsevn/Narrator-Prefix.pch.pch.hash-criteria" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/app/factory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/app/greeting/gretting.ctrl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/app/info/info.ctrl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/app/info/info.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/app/login/login.ctrl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/app/login/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/app/service.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/css/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/lib/evothings/evothings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/lib/ionic/scss/_action-sheet.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/lib/ionic/scss/_animations.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/lib/ionic/scss/_backdrop.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/lib/ionic/scss/_badge.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/lib/ionic/scss/_bar.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/lib/ionic/scss/_button-bar.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/lib/ionic/scss/_button.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/lib/ionic/scss/_checkbox.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/lib/ionic/scss/_form.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/lib/ionic/scss/_grid.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/lib/ionic/scss/_items.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/lib/ionic/scss/_list.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/lib/ionic/scss/_loading.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/lib/ionic/scss/_menu.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/lib/ionic/scss/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/lib/ionic/scss/_modal.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/lib/ionic/scss/_platform.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/lib/ionic/scss/_popover.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/lib/ionic/scss/_popup.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/lib/ionic/scss/_progress.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/lib/ionic/scss/_radio.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/lib/ionic/scss/_range.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/lib/ionic/scss/_reset.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/lib/ionic/scss/_scaffolding.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/lib/ionic/scss/_select.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/lib/ionic/scss/_slide-box.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/lib/ionic/scss/_split-pane.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/lib/ionic/scss/_tabs.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/lib/ionic/scss/_toggle.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/lib/ionic/scss/_transitions.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/lib/ionic/scss/_type.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/lib/ionic/scss/_util.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/lib/ionic/scss/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/lib/ionic/scss/ionic.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/lib/ionic/scss/ionicons/_ionicons-animation.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/lib/ionic/scss/ionicons/_ionicons-font.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/lib/ionic/scss/ionicons/_ionicons-icons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/lib/ionic/scss/ionicons/_ionicons-variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/lib/ionic/scss/ionicons/ionicons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/lib/ngDraggable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/plugins/org.apache.cordova.console/www/console-via-logger.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/plugins/org.apache.cordova.console/www/logger.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/plugins/org.apache.cordova.contacts/www/Contact.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/plugins/org.apache.cordova.contacts/www/ContactAddress.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/plugins/org.apache.cordova.contacts/www/ContactError.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/plugins/org.apache.cordova.contacts/www/ContactField.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/plugins/org.apache.cordova.contacts/www/ContactFieldType.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/plugins/org.apache.cordova.contacts/www/ContactFindOptions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/plugins/org.apache.cordova.contacts/www/ContactName.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/plugins/org.apache.cordova.contacts/www/ContactOrganization.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/plugins/org.apache.cordova.contacts/www/contacts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/plugins/org.apache.cordova.contacts/www/ios/Contact.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/plugins/org.apache.cordova.contacts/www/ios/contacts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/plugins/org.apache.cordova.dialogs/www/notification.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/plugins/org.apache.cordova.file/www/DirectoryEntry.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/plugins/org.apache.cordova.file/www/DirectoryReader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/plugins/org.apache.cordova.file/www/Entry.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/plugins/org.apache.cordova.file/www/File.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/plugins/org.apache.cordova.file/www/FileEntry.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/plugins/org.apache.cordova.file/www/FileError.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/plugins/org.apache.cordova.file/www/FileReader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/plugins/org.apache.cordova.file/www/FileSystem.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/plugins/org.apache.cordova.file/www/FileUploadOptions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/plugins/org.apache.cordova.file/www/FileUploadResult.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/plugins/org.apache.cordova.file/www/FileWriter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/plugins/org.apache.cordova.file/www/Flags.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/plugins/org.apache.cordova.file/www/LocalFileSystem.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/plugins/org.apache.cordova.file/www/Metadata.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/plugins/org.apache.cordova.file/www/ProgressEvent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/plugins/org.apache.cordova.file/www/fileSystemPaths.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/plugins/org.apache.cordova.file/www/fileSystems-roots.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/plugins/org.apache.cordova.file/www/fileSystems.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/plugins/org.apache.cordova.file/www/ios/FileSystem.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/plugins/org.apache.cordova.file/www/requestFileSystem.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/plugins/org.apache.cordova.file/www/resolveLocalFileSystemURI.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/plugins/org.apache.cordova.geolocation/www/Coordinates.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/plugins/org.apache.cordova.geolocation/www/Position.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/plugins/org.apache.cordova.geolocation/www/PositionError.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/plugins/org.apache.cordova.geolocation/www/geolocation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/plugins/org.apache.cordova.media/www/Media.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/plugins/org.apache.cordova.media/www/MediaError.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/plugins/org.apache.cordova.network-information/www/Connection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/plugins/org.apache.cordova.network-information/www/network.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/plugins/org.apache.cordova.vibration/www/vibration.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/plugins/android.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/www/app/factory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/www/app/greeting/gretting.ctrl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/www/app/info/info.ctrl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/www/app/info/info.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/www/app/login/login.ctrl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/www/app/login/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/www/app/service.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/www/css/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/www/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/www/lib/evothings/evothings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Narrator/www/lib/ngDraggable.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVHandleOpenURL.o" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVHandleOpenURL.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON_private.o" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON_private.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-non-framework-target-headers.hmap" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-non-framework-target-headers.hmap" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova.hmap" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova.hmap" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/sharedpch/CordovaLib_Prefix-cvyrpybkqggwjyajykmpidmeowkv/CordovaLib_Prefix.pch.pch" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/build/sharedpch/CordovaLib_Prefix-cvyrpybkqggwjyajykmpidmeowkv/CordovaLib_Prefix.pch.pch" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/dgph" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/dgph" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/libCordova.a" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/build/emulator/libCordova.a" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.d" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.d" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.d" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVHandleOpenURL.d" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVHandleOpenURL.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.d" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.d" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON_private.d" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON_private.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.d" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.d" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.d" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.d" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.d" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.d" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.d" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.d" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.d" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/Cordova.LinkFileList" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/Cordova.LinkFileList" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/build/sharedpch/CordovaLib_Prefix-cvyrpybkqggwjyajykmpidmeowkv/CordovaLib_Prefix.pch.data" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/build/sharedpch/CordovaLib_Prefix-cvyrpybkqggwjyajykmpidmeowkv/CordovaLib_Prefix.pch.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.d" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.d" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.d" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.d" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/hooks/README.md" afterPath="$PROJECT_DIR$/Narrator/hooks/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.d" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/app/app.js" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/www/app/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/www/app/app.js" afterPath="$PROJECT_DIR$/Narrator/www/app/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/config.xml" afterPath="$PROJECT_DIR$/Narrator/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/android/res/xml/config.xml" afterPath="$PROJECT_DIR$/Narrator/platforms/android/res/xml/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/config.xml" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/android/assets/www/cordova_plugins.js" afterPath="$PROJECT_DIR$/Narrator/platforms/android/assets/www/cordova_plugins.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/cordova_plugins.js" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/www/cordova_plugins.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/plugins/fetch.json" afterPath="$PROJECT_DIR$/Narrator/plugins/fetch.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/app/greeting/greeting.html" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/www/app/greeting/greeting.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/www/app/greeting/greeting.html" afterPath="$PROJECT_DIR$/Narrator/www/app/greeting/greeting.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/app/greeting/gretting.ctrl.js" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/www/app/greeting/gretting.ctrl.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/index.html" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/www/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/www/index.html" afterPath="$PROJECT_DIR$/Narrator/www/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/plugins/ios.json" afterPath="$PROJECT_DIR$/Narrator/plugins/ios.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/app/landing/landing.ctrl.js" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/www/app/landing/landing.ctrl.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/www/app/landing/landing.ctrl.js" afterPath="$PROJECT_DIR$/Narrator/www/app/landing/landing.ctrl.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/www/app/landing/landing.html" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/www/app/landing/landing.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Narrator/platforms/ios/Narrator.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/www/app/landing/landing.html" afterPath="$PROJECT_DIR$/Narrator/www/app/landing/landing.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Narrator/package.json" afterPath="$PROJECT_DIR$/Narrator/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Hakathon_Immersive.iws" />
@@ -115,12 +767,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Narrator/www/index.html">
+      <file leaf-file-name="ionic.bundle.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Narrator/www/lib/ionic/js/ionic.bundle.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5745554" vertical-offset="90" max-vertical-offset="1035">
-              <caret line="34" column="50" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
-              <folding />
+            <state vertical-scroll-proportion="0.35989377" vertical-offset="142289" max-vertical-offset="785880">
+              <caret line="9504" column="72" selection-start-line="9504" selection-start-column="62" selection-end-line="9504" selection-end-column="72" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -128,68 +782,28 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Narrator/www/app/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1395">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5715">
+              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="landing.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Narrator/www/app/landing/landing.html">
+      <file leaf-file-name="bower.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Narrator/www/lib/ionic/bower.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="165">
-              <caret line="3" column="76" selection-start-line="3" selection-start-column="76" selection-end-line="3" selection-end-column="76" />
+            <state vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="645">
+              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="factory.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Narrator/www/app/factory.js">
+      <file leaf-file-name="sqlite.ctrl.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Narrator/www/app/sqlite/sqlite.ctrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Narrator/config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="greeting.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Narrator/www/app/greeting/greeting.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="180">
-              <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gretting.ctrl.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Narrator/www/app/greeting/gretting.ctrl.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="165">
-              <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="landing.ctrl.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Narrator/www/app/landing/landing.ctrl.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -213,13 +827,21 @@
         <option value="$PROJECT_DIR$/Narrator/www/app/login/login.ctrl.js" />
         <option value="$PROJECT_DIR$/Narrator/www/app/info/info.ctrl.js" />
         <option value="$PROJECT_DIR$/Narrator/www/app/greeting/gretting.ctrl.js" />
-        <option value="$PROJECT_DIR$/Narrator/www/app/app.js" />
         <option value="$PROJECT_DIR$/Narrator/www/css/index.css" />
-        <option value="$PROJECT_DIR$/Narrator/www/app/landing/landing.html" />
         <option value="$PROJECT_DIR$/Narrator/config.xml" />
-        <option value="$PROJECT_DIR$/Narrator/www/app/greeting/greeting.html" />
         <option value="$PROJECT_DIR$/Narrator/www/app/landing/landing.ctrl.js" />
+        <option value="$PROJECT_DIR$/Narrator/www/app/landing/landing.html" />
+        <option value="$PROJECT_DIR$/Narrator/www/app/oauth/oauth.ctrl.js" />
+        <option value="$PROJECT_DIR$/Narrator/www/app/socialSharing/socialSharing.ctrl.js" />
+        <option value="$PROJECT_DIR$/Narrator/www/app/menu.html" />
+        <option value="$PROJECT_DIR$/Narrator/www/app/greeting/greeting.html" />
+        <option value="$PROJECT_DIR$/Narrator/www/app/sqlite/sqlite.ctrl.js" />
         <option value="$PROJECT_DIR$/Narrator/www/index.html" />
+        <option value="$PROJECT_DIR$/Narrator/www/lib/ionic/js/ionic-angular.js" />
+        <option value="$PROJECT_DIR$/Narrator/www/app/greeting/greeting.ctrl.js" />
+        <option value="$PROJECT_DIR$/Narrator/bower.json" />
+        <option value="$PROJECT_DIR$/Narrator/www/lib/ionic/bower.json" />
+        <option value="$PROJECT_DIR$/Narrator/www/app/app.js" />
       </list>
     </option>
   </component>
@@ -323,7 +945,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -345,11 +967,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="landing" />
+              <option name="myItemId" value="ionic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Hakathon_Immersive" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Hakathon_Immersive" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Narrator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ionic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -383,6 +1035,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="SearchEverywhereHistoryKey" value="ngRes&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -438,28 +1091,49 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32822478" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17238913" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32950193" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32822478" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32950193" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17238913" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -498,62 +1172,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Narrator/www/app/landing/landing.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="165">
-          <caret line="3" column="76" selection-start-line="3" selection-start-column="76" selection-end-line="3" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Narrator/www/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1345" max-vertical-offset="2160">
-          <caret line="129" column="13" selection-start-line="129" selection-start-column="13" selection-end-line="129" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Narrator/www/app/greeting/greeting.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="195">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Narrator/www/app/greeting/gretting.ctrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="165">
-          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Narrator/www/app/info/info.ctrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="165">
-          <caret line="1" column="25" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Narrator/www/app/info/info.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Narrator/www/app/landing/landing.ctrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="345">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Narrator/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
@@ -572,20 +1190,6 @@
     <entry file="file://$PROJECT_DIR$/Narrator/www/lib/ngCordova/bower.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="765">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Narrator/www/app/login/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="420">
-          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Narrator/www/app/login/login.ctrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
@@ -609,49 +1213,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="755">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Narrator/platforms/ios/Narrator/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25827813" vertical-offset="0" max-vertical-offset="945">
-          <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Narrator/platforms/android/res/xml/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.059602648" vertical-offset="0" max-vertical-offset="755">
-          <caret line="3" column="59" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Narrator/www/img/logo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Narrator/platforms/android/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="755">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Narrator/platforms/android/cordova/check_reqs">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="555">
-          <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Narrator/platforms/android/cordova/lib/check_reqs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3720">
-          <caret line="42" column="37" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -690,13 +1251,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Narrator/www/app/login/login.ctrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2781457" vertical-offset="0" max-vertical-offset="755">
-          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Narrator/www/lib/facebookConnectPlugin.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.0066226" vertical-offset="1515" max-vertical-offset="2835">
@@ -704,49 +1258,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Narrator/www/app/login/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65663475" vertical-offset="0" max-vertical-offset="731">
-          <caret line="32" column="67" selection-start-line="32" selection-start-column="67" selection-end-line="32" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Narrator/www/lib/ngCordova/bower.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.046511628" vertical-offset="34" max-vertical-offset="765">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Narrator/www/app/info/info.ctrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
-          <caret line="1" column="25" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Narrator/www/app/info/info.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Narrator/www/app/greeting/gretting.ctrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
-          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Narrator/www/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1345" max-vertical-offset="2160">
-          <caret line="129" column="13" selection-start-line="129" selection-start-column="13" selection-end-line="129" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -781,65 +1296,265 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Narrator/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="840">
+          <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Narrator/www/app/service.js">
+    <entry file="file://$PROJECT_DIR$/Narrator/www/app/geolocation/geolocation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="755">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Narrator/www/app/factory.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="755">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Narrator/www/app/greeting/greeting.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="180">
-          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+        <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="495">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="24" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Narrator/www/app/landing/landing.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="165">
-          <caret line="3" column="76" selection-start-line="3" selection-start-column="76" selection-end-line="3" selection-end-column="76" />
+        <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="255">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Narrator/www/app/oauth/oauth.ctrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="2070">
+          <caret line="50" column="45" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Narrator/www/app/oauth/oauth.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="755">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Narrator/www/app/insomnia/insomnia.ctrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="755">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Narrator/www/app/network/network.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="755">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Narrator/www/app/network/network.ctrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="755">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Narrator/www/app/sqlite/sqlite.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="755">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Narrator/www/app/socialSharing/socialSharing.ctrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
+          <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Narrator/www/app/touchid/touchid.ctrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="755">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Narrator/www/app/media/media.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="255">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Narrator/www/app/touchid/touchid.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Narrator/www/app/media/media.ctrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37748346" vertical-offset="0" max-vertical-offset="755">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Narrator/www/app/landing/landing.ctrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.1986755" vertical-offset="0" max-vertical-offset="755">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Narrator/www/app/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="60.0" vertical-offset="1875" max-vertical-offset="3030">
+          <caret line="29" column="59" selection-start-line="29" selection-start-column="59" selection-end-line="29" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Narrator/www/app/greeting/greeting.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="195">
+          <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Narrator/www/app/toast/toast.ctrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="13" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Narrator/www/lib/ionic/.bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Narrator/www/cordova.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.61752987" vertical-offset="465" max-vertical-offset="26715">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Narrator/www/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="753">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Narrator/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.19341564" vertical-offset="141" max-vertical-offset="870">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Narrator/www/app/greeting/greeting.ctrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.03984064" vertical-offset="0" max-vertical-offset="753">
+          <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Narrator/www/app/sqlite/sqlite.ctrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Narrator/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14403293" vertical-offset="0" max-vertical-offset="729">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Narrator/platforms/ios/www/lib/angular-resource/angular-resource.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.77158034" vertical-offset="499" max-vertical-offset="10095">
+          <caret line="72" column="62" selection-start-line="72" selection-start-column="62" selection-end-line="72" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Narrator/www/lib/ionic/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="645">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Narrator/www/lib/ionic/js/ionic-angular.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="753">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Narrator/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.21399178" vertical-offset="396" max-vertical-offset="1215">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Narrator/www/app/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1395">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5715">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Narrator/www/index.html">
+    <entry file="file://$PROJECT_DIR$/Narrator/www/lib/ionic/js/ionic-angular.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5745554" vertical-offset="90" max-vertical-offset="1035">
-          <caret line="34" column="50" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
-          <folding />
+        <state vertical-scroll-proportion="0.37848607" vertical-offset="615" max-vertical-offset="172320">
+          <caret line="60" column="68" selection-start-line="60" selection-start-column="68" selection-end-line="60" selection-end-column="68" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Narrator/www/lib/ionic/js/ionic.bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35989377" vertical-offset="142289" max-vertical-offset="785880">
+          <caret line="9504" column="72" selection-start-line="9504" selection-start-column="62" selection-end-line="9504" selection-end-column="72" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

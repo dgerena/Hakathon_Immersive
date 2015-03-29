@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "name": "uk.co.ilee.touchid",
+    "cordova_name": "Touch ID",
+    "description": "Cordova Plugin to leverage the iOS local authentication framework to allow in-app user authentication using Touch ID.",
+    "license": "MIT",
+    "keywords": [
+        "cordova",
+        " touch id",
+        " touchid",
+        " authentication",
+        " fingerprint",
+        " id",
+        " login"
+    ],
+    "platforms": [
+        "ios"
+    ],
+    "engines": [
+        {
+            "name": "cordova",
+            "version": ">=3.0.0"
+        }
+    ]
+}
