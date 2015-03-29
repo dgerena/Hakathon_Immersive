@@ -1,5 +1,5 @@
 'use strict';
-narrator.controller('Landing', function($scope, $cordovaOauth){
+narrator.controller('Landing', function($scope){
 
 });
 
