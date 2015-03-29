@@ -55,4 +55,7 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
+    <feature name="BLE">
+        <param name="ios-package" value="EVOBLE" />
+    </feature>
 </widget>

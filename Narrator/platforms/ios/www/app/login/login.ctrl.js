@@ -1,3 +1,5 @@
-/**
- * Created by bisikennadi on 3/28/15.
- */
+'use strict';
+narrator.controller('Login', function($scope){
+    
+});
+

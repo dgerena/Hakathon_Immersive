@@ -1,6 +1,6 @@
-var narrator = angular.module('narrator', ['ngCordova','ui.router'])
-    .run(function ($rootScope, $cordovaNetwork, $cordovaBatteryStatus, $cordovaLocalNotification, $cordovaPush,$http,API_URL,API) {
-
+var narrator = angular.module('narrator', ['ngCordova','ionic'])
+    .run(function ($rootScope, $cordovaNetwork, $cordovaBatteryStatus, $cordovaLocalNotification,$ionicPlatform, $cordovaPush,$http,API_URL,API) {
+        $ionicPlatform.ready(function () {
             if (window.cordova && window.cordova.plugins.Keyboard) {
                 cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
             }
@@ -9,9 +9,9 @@ var narrator = angular.module('narrator', ['ngCordova','ui.router'])
             }
 
             $cordovaLocalNotification.registerPermission().then(function () {
-                //alert("registered");
+                alert("registered");
             }, function () {
-                //alert("denied registration");
+                alert("denied registration");
             });
 
             var iosConfig = {
@@ -55,7 +55,11 @@ var narrator = angular.module('narrator', ['ngCordova','ui.router'])
             $rootScope.$on("$cordovaBatteryStatus:status", function (event, status) {
                 //alert("status: " + status);
             })
-
+        });
+            $http.get(API_URL.points_interest+'?ApiKey='+API.key+'&Token='+API.token)
+                .success(function(data){
+                    console.log(data)
+                })
     })
 
     .constant('API_URL', {
@@ -70,8 +74,8 @@ var narrator = angular.module('narrator', ['ngCordova','ui.router'])
         document.addEventListener("deviceready", function () {}, false);
 
         $stateProvider
-            .state('login',{url:'/',templateUrl:'login/login.html'})
-            .state('dashboard',{url:'/dashboard',templateUrl:'login/login.html'})
+            .state('login',{url:'/dashboard',templateUrl:'app/login/login.html',controller: 'Login'})
+            .state('dashboard',{url:'/',templateUrl:'app/landing/landing.html',controller: 'Landing'});
 
         $urlRouterProvider.otherwise('/dashboard');
 
