@@ -19,7 +19,6 @@
     "body-parser": "*",
     "coffee-script": "*",
     "connect-redis": "*",
-    "ejs-mate": "*",
     "express": "*",
     "express-session": "*",
     "js-sha256": "*",
