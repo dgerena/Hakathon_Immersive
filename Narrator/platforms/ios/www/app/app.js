@@ -1,8 +1,8 @@
-var narrator = angular.module('narrator', ['ngCordova','ionic'])
+var narrator = angular.module('narrator', ['ngCordova','ionic','ngDraggable'])
     .run(function ($rootScope, $cordovaNetwork, $cordovaBatteryStatus,$cordovaSplashscreen, $cordovaLocalNotification,$ionicPlatform, $ionicSideMenuDelegate,$cordovaPush,$http,API_URL,API) {
         $ionicPlatform.ready(function () {
             $rootScope.title = 'Universal Expanding';
-           
+
             if (window.cordova && window.cordova.plugins.Keyboard) {
                 cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
             }
