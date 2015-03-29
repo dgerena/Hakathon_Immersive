@@ -1,7 +1,7 @@
 var async = require('async');
 var route = require('express').Router();
 var sha = require("js-sha256").sha256;
-var querystring = require("querystring");
+var qs = require("querystring");
 var unirest = require('unirest');
 
 var type = 'query'
@@ -86,40 +86,46 @@ route.get('/visit/:uuid',function (req,res){
 
 		},
 		'beacon': function(done){
-			console.log('hi im here',89);
-			models.beacons
+			
+			Models.beacons
 				.findOne({
 					"uuid":req.params.uuid
 				})
-				.exec(function (err,beacon){
-					var	url =  "https://servicesstg.universalorlando.com/api/";
-					for(var s = 0; s < beacon.section.length;s++){
-						url += beacon.section[s] + "/"
+				.exec(function (err, beacon){
+					if(beacon){
+						var	url =  "https://servicesstg.universalorlando.com/api/";
+						for(var s = 0; s < beacon.sections.length;s++){
+							url += beacon.sections[s] + "/"
+						}
+
+						url += beacon.id+"?"+qs.stringify(auth.hack1);
+						
+						unirest
+							.get(url)
+							.header({
+								"Cache-Control" : "no-cache",
+								"Content-Length": "1767",
+								"Content-Type": "application/json; charset=utf-8",
+								"Date": "Sun, 29 Mar 2015 03:43:11 GMT",
+								"Expires": "-1",
+								"Pragma": "no-cache",
+								"Server": "Microsoft-IIS/7.5",
+								"X-AspNet-Version": "4.0.30319",
+								"X-Powered-By": "ASP.NET"
+
+							})
+							// .send({ "parameter": 23, "foo": "bar" })
+							.end(function (response) {
+							  done(err,response);
+							});
+					} else {
+						done({"Error":"that beacon hasn't been stored or has been moved"});
 					}
-
-					url += beacon.id+"?"+querystring(auth.hack1);
-					console.log('hero',101);
-					unirest.get(url)
-						.header({
-							"Cache-Control" : "no-cache",
-							"Content-Length": "1767",
-							"Content-Type": "application/json; charset=utf-8",
-							"Date": "Sun, 29 Mar 2015 03:43:11 GMT",
-							"Expires": "-1",
-							"Pragma": "no-cache",
-							"Server": "Microsoft-IIS/7.5",
-							"X-AspNet-Version": "4.0.30319",
-							"X-Powered-By": "ASP.NET"
-
-						})
-						// .send({ "parameter": 23, "foo": "bar" })
-						.end(function (response) {
-						  console.log('Welcome',response.body);
-						});
 				})
 		},
 	},function (err, result){
-
+		if(err){ res.json(err); }
+		else{ res.json(result); }
 	});
 });
 
