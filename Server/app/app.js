@@ -2,8 +2,6 @@ var path = require('path');
 var express = require('express');
 var cluster = require('cluster');
 var http = require('http');
-var async = require('async');
-var https = require('https');
 var mongoose = require('mongoose');
 var fs = require('fs');
 
@@ -70,7 +68,9 @@ if (cluster.isMaster) {
 
 	// 404 ---- Page
 	app.get("/*", function(req, res){
-		res.render('404');
+		res.json({
+			'Error': "This is not an endpoint. Where were you trying to go?"
+		});
 	});
 
 	// Create an HTTP service.
