@@ -62,4 +62,23 @@ route.get('/login',function (req,res){
 });
 
 
+route.all('/visit*', app.policies.mustBeLoggedIn);
+
+route.get('/visit/:uuid',function (req,res){
+	Models.users
+		.findOne({
+			'uuid': req.session.user.uuid
+		})
+		.exec(function (err, user) {
+
+			user.visited.push({
+				'location': req.params.uuid,
+				'at': new Date()
+			});
+			user.save();
+			res.json({ 'passed': true });
+		});
+});
+
+
 module.exports = route;
